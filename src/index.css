@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;1,400;1,700&display=swap');
+
+body {
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Charis SIL', serif;
+}
+::selection{
+  background-color: black;
+  color: white;
+}
+span{
+  cursor: pointer;
+}
+span:hover{
+  color: white;
+}
+
+input,textarea,select{
+  border-radius: 0.5rem;
+  padding:1rem ;
+  border:"none";
+  margin: 3rem;
+}
