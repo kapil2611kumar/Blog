@@ -27,7 +27,7 @@ const Blog = ({pending,setPending}) => {
     fetch(`http://localhost:8000/blogs/${id}`,{
       method:"DELETE",
     }).then(() => {
-       setPanding(!pending);
+       setPending(!pending);
        navigate("/");
     });
 
