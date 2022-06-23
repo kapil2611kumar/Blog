@@ -32,19 +32,23 @@ const Create = (pending,setPending) =>{
         <div className="createContainer" 
         style ={{width:"48%"}}>
             <form  onSubmit={submitHandler} 
-            style ={{display:"flex",flexDirection:"column"}}>
+            style ={{display:"flex",flexDirection:"column"}}
+            >
                 <label>Title</label>
                 <input type="text" required  
                 value={title}
-                onChange={(e) => setTitle(e.target.value)} />
+                onChange={(e) => setTitle(e.target.value)} 
+                />
                 <label>Body</label>
                 <textarea  required
                  value={body}
-                onChange={(e) => setBody(e.target.value)}  />
+                onChange={(e) => setBody(e.target.value)} 
+                 />
                 <label>Image Link</label>
                 <input text="text" required 
                  value={img}
-                onChange={(e) => setImg(e.target.value)}  />
+                onChange={(e) => setImg(e.target.value)} 
+                 />
                 <select 
                 value={author} 
                 onChange={(e)=> setAuthor(e.target.value)} >
