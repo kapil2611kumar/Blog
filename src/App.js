@@ -9,7 +9,7 @@ import {Routes,Route} from 'react-router-dom';
 import Create from "./components/Create";
 import { useState } from "react";
 const App = () => {
-  const [{pending,setPending}] =useState(false)
+  const [pending,setPending] =useState(false)
   return (
    <>
    <Layout>
